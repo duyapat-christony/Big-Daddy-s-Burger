@@ -221,12 +221,12 @@ a:focus {
   height: auto;
   padding: 0;
   border: none;
-  color: #ffffff;
+  color: #eb8904;
   margin: 0 10px;
 }
 
 .custom_nav-container .nav_search-btn:hover {
-  color: #eb8904;
+  color: #ffffff;
 }
 
 .user_option {
@@ -439,7 +439,7 @@ a:focus {
   margin-top: 0;
   margin-bottom: 0;
   position:relative;
-  padding-top: 10px;
+  padding-top: 0px;
   background-image: url("../images/offer-bg.png");
   width: 100%;
   background-size:100vw 100%;
