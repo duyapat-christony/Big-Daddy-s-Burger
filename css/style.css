@@ -1106,6 +1106,15 @@ a:focus {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding:0 2.5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -1117,5 +1126,9 @@ a:focus {
   border-radius: 100%;
   margin: 0 2.5px;
   font-size: 18px;
+}
+
+.contact_social a:hover {
+  color:#ef9c00;
 }
 /*# sourceMappingURL=style.css.map */
