@@ -265,12 +265,12 @@ a:focus {
 .user_option .cart_link svg {
   width: 17px;
   height: auto;
-  fill: #ffffff;
+  fill: #eb8904;
   margin-bottom: 2px;
 }
 
 .user_option .cart_link:hover svg {
-  fill:#87452d
+  fill:#ffffff
 }
 
 .user_option .order_online {
