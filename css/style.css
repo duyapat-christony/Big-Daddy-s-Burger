@@ -2,7 +2,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #0c0c0c;
-  background-color: #ffffff;
+  background-color: #e7dbd4;
   overflow-x: hidden;
 }
 
@@ -164,9 +164,10 @@ a:focus {
   padding-left: 25px;
   background-image: url("../images/header-bg.png");
   width: 100%;
-  background-size: 100% 130%;
-  background-position: center;
-  background-repeat: no-repeat;
+  background-size:100% 100%;
+  background-position:center center;
+  background-repeat:no-repeat;
+  background-attachment:scroll;
 }
 
 .header-logo {
@@ -203,7 +204,7 @@ a:focus {
 
 .custom_nav-container .navbar-nav .nav-item .nav-link {
   padding: 5px 20px;
-  color: #ffffff;
+  color: #eb8904;
   text-align: center;
   text-transform: uppercase;
   border-radius: 5px;
@@ -212,7 +213,7 @@ a:focus {
 }
 
 .custom_nav-container .navbar-nav .nav-item:hover .nav-link, .custom_nav-container .navbar-nav .nav-item.active .nav-link {
-  color: #eb8904;
+  color: #ffffff;
 }
 
 .custom_nav-container .nav_search-btn {
@@ -346,6 +347,7 @@ a:focus {
 }
 
 /*end header section*/
+
 /* slider section */
 .slider_section {
   -webkit-box-flex: 1;
@@ -359,7 +361,7 @@ a:focus {
           align-items: center;
   position: relative;
   padding: 45px 0 75px 0;
-  margin: bottom 0;
+  margin-bottom: 0;
 }
 
 .slider_section .row {
@@ -375,13 +377,13 @@ a:focus {
 
 .slider_section .detail-box {
   color: #ffffff;
-  margin-bottom: 145px;
+  margin-bottom: 0;
 }
 
 .slider_section .detail-box h1 {
   font-size: 3.5rem;
   font-weight: bold;
-  margin-bottom: 15px;
+  margin-bottom: 0;
 }
 
 .slider_section .detail-box p {
@@ -440,9 +442,11 @@ a:focus {
   padding-top: 10px;
   background-image: url("../images/offer-bg.png");
   width: 100%;
-  background-size: 100% 100%;
-  background-position: center;
-  background-repeat: no-repeat;
+  background-size:100vw 100%;
+  background-position: center center;
+  background-repeat:no-repeat;
+  background-attachment:scroll;
+
 }
 
 .offer_section .box {
@@ -951,6 +955,10 @@ a:focus {
 }
 
 /* footer section*/
+.footer_header {
+  color: #ef9c00;
+}
+
 .footer_section {
   background-image: url("../images/footer-bg.png");
   width: 100%;
@@ -961,6 +969,7 @@ a:focus {
   padding: 75px 0 40px 0;
   text-align: center;
 }
+
 
 .footer_row {
   margin-top: 2rem;
