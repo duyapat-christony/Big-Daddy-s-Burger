@@ -957,6 +957,7 @@ a:focus {
 /* footer section*/
 .footer_header {
   color: #ef9c00;
+  margin-bottom: 1rem;
 }
 
 .footer_section {
