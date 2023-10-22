@@ -969,7 +969,7 @@ a:focus {
   aspect-ratio: 17/10;
   width: 100%;
   background-size: 100% 100%;
-  background-position: center;
+  background-position: relative;
   background-repeat: no-repeat;
   color: #ffffff;
   padding: 75px 0 10px 0;
