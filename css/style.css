@@ -966,6 +966,7 @@ a:focus {
 
 .footer_section {
   background-image: url("../images/footer-bg.png");
+  aspect-ratio: 17/10;
   width: 100%;
   background-size: 100% 100%;
   background-position: center;
