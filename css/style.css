@@ -1048,6 +1048,7 @@ a:focus {
           justify-content: center;
   margin-top: 20px;
   margin-bottom: 10px;
+  padding:0 2.5px;
 }
 
 .footer_section .footer_social a {
