@@ -680,6 +680,10 @@ a:focus {
           align-items: center;
 }
 
+.map_border {
+  border-radius: 45px;
+}
+
 .about_section .img-box {
   position: relative;
   display: -webkit-box;
