@@ -170,6 +170,10 @@ a:focus {
   background-attachment:scroll;
 }
 
+.book_header {
+  background-color: black;
+}
+
 .header-logo {
   max-width: 100px;
   max-height: 100px;
