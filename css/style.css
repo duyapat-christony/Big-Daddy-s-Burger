@@ -688,6 +688,9 @@ a:focus {
 
 .map_border {
   border-radius: 45px;
+  width: 800px;
+  min-width: 50vw;
+  max-width: 90vw;
 }
 
 .about_section .img-box {
