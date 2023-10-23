@@ -139,9 +139,9 @@ a:focus {
 }
 
 .header_section {
-  background-color: black;
   padding: 15px 0;
 }
+
 
 .header_section .container-fluid {
   padding-right: 25px;
@@ -173,6 +173,7 @@ a:focus {
 
 .book_header {
   background-color: black;
+  padding: 15px 0;
 }
 
 .header-logo {
